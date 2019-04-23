@@ -16,15 +16,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ImageClick" />
-        <activity android:name=".BubbleButton" />
-        <activity android:name=".EmptyActivity" />
-        <activity android:name=".SharedElement" />
-        <activity android:name=".ViewAnimation" />
-        <activity android:name=".TransitionActivity" />
-        <activity android:name=".RippleEffect" />
-        <activity android:name=".VisibilityActivity" />
-        <activity android:name=".VibrationActivity" />
+        <activity android:name=".animActivity.ImageClick" />
+        <activity android:name=".animActivity.BubbleButton" />
+        <activity android:name=".animActivity.EmptyActivity" />
+        <activity android:name=".animActivity.SharedElement" />
+        <activity android:name=".animActivity.ViewAnimation" />
+        <activity android:name=".animActivity.TransitionActivity" />
+        <activity android:name=".animActivity.RippleEffect" />
+        <activity android:name=".animActivity.VisibilityActivity" />
+        <activity android:name=".animActivity.VibrationActivity" />
+        <activity android:name=".AnimationActivity"/>
+        <activity android:name=".animActivity.HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".animActivity.AnimEnlargectivity"/>
     </application>
 
 </manifest>

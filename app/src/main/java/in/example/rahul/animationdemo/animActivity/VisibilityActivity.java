@@ -1,4 +1,4 @@
-package in.example.rahul.animationdemo;
+package in.example.rahul.animationdemo.animActivity;
 
 import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
@@ -10,6 +10,8 @@ import android.view.ViewPropertyAnimator;
 import android.view.animation.CycleInterpolator;
 import android.widget.Button;
 import android.widget.TextView;
+
+import in.example.rahul.animationdemo.R;
 
 public class VisibilityActivity extends AppCompatActivity {
 
