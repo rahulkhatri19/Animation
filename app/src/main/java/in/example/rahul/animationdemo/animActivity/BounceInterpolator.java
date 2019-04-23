@@ -1,4 +1,4 @@
-package in.example.rahul.animationdemo;
+package in.example.rahul.animationdemo.animActivity;
 
 /**
  * Created by Rahul on 28-02-2018.

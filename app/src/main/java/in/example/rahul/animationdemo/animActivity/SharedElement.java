@@ -1,4 +1,4 @@
-package in.example.rahul.animationdemo;
+package in.example.rahul.animationdemo.animActivity;
 
 import android.app.ActivityOptions;
 import android.content.Intent;
@@ -7,6 +7,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+
+import in.example.rahul.animationdemo.R;
 
 public class SharedElement extends AppCompatActivity {
         ImageView imageView;

@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:padding="16dp"
     android:id="@+id/transition_container"
-    tools:context="in.example.rahul.animationdemo.VisibilityActivity">
+    tools:context="in.example.rahul.animationdemo.animActivity.VisibilityActivity">
 <Button
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
