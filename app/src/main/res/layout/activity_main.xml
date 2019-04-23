@@ -18,6 +18,16 @@
             android:layout_height="wrap_content"
             android:padding="10dp"
             android:textSize="22sp"
+            android:textAllCaps="false"
+            android:onClick="btnMoreAnim"
+            android:id="@+id/btn_more_anim"
+            android:text="View More Animation" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="22sp"
+            android:textAllCaps="false"
             android:text="Bubble Button"
             android:id="@+id/btn_bubble"/>
         <Button
@@ -25,6 +35,7 @@
             android:layout_height="wrap_content"
             android:padding="10dp"
             android:textSize="22sp"
+            android:textAllCaps="false"
             android:text="Image Click"
             android:id="@+id/imgclick"/>
         <Button
@@ -34,6 +45,7 @@
             android:textSize="22sp"
             android:text="Shared Elements"
             android:id="@+id/shared"
+            android:textAllCaps="false"
             android:onClick="shared"/>
         <Button
             android:layout_width="match_parent"
@@ -41,6 +53,7 @@
             android:padding="10dp"
             android:textSize="22sp"
             android:text="View Animatin"
+            android:textAllCaps="false"
             android:id="@+id/viewAni"
             android:onClick="viewAni"/>
         <Button
@@ -49,6 +62,7 @@
             android:padding="10dp"
             android:textSize="22sp"
             android:text="Transition"
+            android:textAllCaps="false"
             android:id="@+id/transi"
             android:onClick="transi"/>
         <Button
@@ -56,6 +70,7 @@
             android:layout_height="wrap_content"
             android:padding="10dp"
             android:textSize="22sp"
+            android:textAllCaps="false"
             android:text="Ripple Effect"
             android:onClick="ripple"/>
         <Button
@@ -63,6 +78,7 @@
             android:layout_height="wrap_content"
             android:padding="10dp"
             android:textSize="22sp"
+            android:textAllCaps="false"
             android:text="Visible and Invisible"
             android:onClick="visi"/>
         <Button
@@ -71,13 +87,16 @@
             android:padding="10dp"
             android:textSize="22sp"
             android:onClick="vibration"
+            android:textAllCaps="false"
             android:text="Vibration" />
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="10dp"
             android:textSize="22sp"
-            android:text="" />
+            android:onClick="btnEnlarge"
+            android:textAllCaps="false"
+            android:text="Layout Enlarge" />
 
     </LinearLayout>
 </ScrollView>

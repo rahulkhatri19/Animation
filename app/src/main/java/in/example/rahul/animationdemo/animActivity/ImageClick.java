@@ -1,10 +1,12 @@
-package in.example.rahul.animationdemo;
+package in.example.rahul.animationdemo.animActivity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
+
+import in.example.rahul.animationdemo.R;
 
 public class ImageClick extends AppCompatActivity {
 

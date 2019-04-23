@@ -6,58 +6,77 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity  {
+import in.example.rahul.animationdemo.animActivity.AnimEnlargectivity;
+import in.example.rahul.animationdemo.animActivity.BubbleButton;
+import in.example.rahul.animationdemo.animActivity.ImageClick;
+import in.example.rahul.animationdemo.animActivity.RippleEffect;
+import in.example.rahul.animationdemo.animActivity.SharedElement;
+import in.example.rahul.animationdemo.animActivity.TransitionActivity;
+import in.example.rahul.animationdemo.animActivity.VibrationActivity;
+import in.example.rahul.animationdemo.animActivity.ViewAnimation;
+import in.example.rahul.animationdemo.animActivity.VisibilityActivity;
 
-    Button b1,b2,b3,b4,b5;
+public class MainActivity extends AppCompatActivity {
+
+    Button btnBubbleEffect, btnImageClick;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        b1=(Button)findViewById(R.id.btn_bubble);
-        b2=(Button)findViewById(R.id.imgclick);
-        b3=(Button)findViewById(R.id.shared);
-        b4=(Button)findViewById(R.id.viewAni);
-        b5=(Button)findViewById(R.id.transi);
-       // b3=(Button)findViewById(R.id.);
+        btnBubbleEffect = findViewById(R.id.btn_bubble);
+        btnImageClick = findViewById(R.id.imgclick);
 
-
-        b1.setOnClickListener(new View.OnClickListener() {
+        btnBubbleEffect.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(MainActivity.this,BubbleButton.class);
+                Intent intent = new Intent(MainActivity.this, BubbleButton.class);
                 startActivity(intent);
             }
         });
-        b2.setOnClickListener(new View.OnClickListener() {
+        btnImageClick.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(MainActivity.this,ImageClick.class);
+                Intent intent = new Intent(MainActivity.this, ImageClick.class);
                 startActivity(intent);
             }
         });
 
     }
-    public void shared(View view){
-        startActivity(new Intent(this,SharedElement.class));
+
+    public void shared(View view) {
+        startActivity(new Intent(this, SharedElement.class));
     }
-    public void viewAni(View view){
-        startActivity(new Intent(this,ViewAnimation.class));
+
+    public void viewAni(View view) {
+        startActivity(new Intent(this, ViewAnimation.class));
     }
-    public void transi(View view){
-        startActivity(new Intent(this,TransitionActivity.class));
+
+    public void transi(View view) {
+        startActivity(new Intent(this, TransitionActivity.class));
     }
-    public void ripple(View view){
-        startActivity(new Intent(this,RippleEffect.class));
+
+    public void ripple(View view) {
+        startActivity(new Intent(this, RippleEffect.class));
     }
-    public void visi(View view){
-        startActivity(new Intent(this,VisibilityActivity.class));
+
+    public void visi(View view) {
+        startActivity(new Intent(this, VisibilityActivity.class));
     }
-    public void vibration(View view){
+
+    public void vibration(View view) {
         startActivity(new Intent(this, VibrationActivity.class));
     }
 
-
+    public void btnMoreAnim(View view) {
+        startActivity(new Intent(this, AnimationActivity.class));
     }
+
+    public void btnEnlarge(View view) {
+        startActivity(new Intent(this, AnimEnlargectivity.class));
+    }
+
+
+}
 

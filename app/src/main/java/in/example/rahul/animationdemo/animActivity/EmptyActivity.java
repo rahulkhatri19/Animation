@@ -1,7 +1,9 @@
-package in.example.rahul.animationdemo;
+package in.example.rahul.animationdemo.animActivity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import in.example.rahul.animationdemo.R;
 
 public class EmptyActivity extends AppCompatActivity {
 
