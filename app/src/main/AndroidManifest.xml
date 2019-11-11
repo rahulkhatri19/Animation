@@ -9,6 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".DataActivity"></activity>
+        <activity android:name=".ShimmerActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,13 +27,13 @@
         <activity android:name=".animActivity.RippleEffect" />
         <activity android:name=".animActivity.VisibilityActivity" />
         <activity android:name=".animActivity.VibrationActivity" />
-        <activity android:name=".AnimationActivity"/>
+        <activity android:name=".AnimationActivity" />
         <activity android:name=".animActivity.HomeActivity">
             <intent-filter>
-                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.VIEW" />
             </intent-filter>
         </activity>
-        <activity android:name=".animActivity.AnimEnlargectivity"/>
+        <activity android:name=".animActivity.AnimEnlargectivity" />
     </application>
 
 </manifest>

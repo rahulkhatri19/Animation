@@ -63,6 +63,10 @@ public class AnimationActivity extends AppCompatActivity {
         openAnimation(12);
     }
 
+    public void shimmerLayout(View view){
+        startActivity(new Intent(AnimationActivity.this, ShimmerActivity.class));
+    }
+
     private void openAnimation(int aniCode) {
         startActivity(new Intent(AnimationActivity.this, HomeActivity.class).putExtra("aniCode", aniCode));
     }
