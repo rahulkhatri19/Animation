@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import in.example.rahul.animationdemo.animActivity.HomeActivity;
+import in.example.rahul.animationdemo.animActivity.ShimmerActivity;
 
 public class AnimationActivity extends AppCompatActivity {
 
